@@ -1,0 +1,18 @@
+[project]
+name = "machine-learning-analise-sentimentos"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.162.0",
+    "joblib>=1.6.0",
+    "loguru>=0.7.3",
+    "nltk>=3.10.4",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "pydantic>=2.14.3",
+    "scikit-learn>=1.9.1",
+    "uvicorn>=0.54.0",
+]
+
+[tool.uv]
+package = false
